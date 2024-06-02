@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #333;
+    opacity: 0; /* Start with opacity 0 */
+    animation: fadeIn 2s ease-in-out forwards; /* Apply fade-in animation */
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1; /* End with opacity 1 */
+    }
+}
+.profile-photo {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    border: 3px solid #fff; /* White border */
+    transition: all 0.5s ease; /* Add transition for all properties */
+}
+
+.profile-photo:hover {
+    transform: scale(1.1); /* Scale up the photo on hover */
+}
+
+
+header {
+    background-color: #050202; /* Light Pink */
+    color: #fff; /* White */
+    padding: 2rem 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(143, 48, 48, 0.1);
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    border: 3px solid #1be74a; /* White border */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+nav {
+    background-color: #29d223; /* Darker Pink */
+    color: #ded1d1;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+nav a {
+    color: #e5e5e5;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: #eddcdc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    border-bottom: 2px solid #636e5d;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    color: #000000;
+}
+
+.project {
+    margin-bottom: 1.5rem;
+}
+
+.project h3 {
+    margin: 0.5rem 0;
+    color: #49e921;
+}
+
+.project p {
+    margin: 0.5rem 0;
+    color: #333;
+}
+
+
+
+a {
+    color: #ee8d9f;
+}
+
+a:hover {
+    text-decoration: underline;
+}
