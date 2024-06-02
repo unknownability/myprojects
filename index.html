@@ -4,108 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gaurav Dewasi - Editor</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        header {
-            background-color: #3c3c3c;
-            color: #f4f4f4;
-            padding: 1rem 0;
-            text-align: center;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 2.5rem;
-        }
-        nav {
-            background-color: #333;
-            color: #fff;
-            display: flex;
-            justify-content: center;
-            padding: 0.5rem;
-        }
-        nav a {
-            color: #fff;
-            margin: 0 1rem;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        section {
-            max-width: 800px;
-            margin: 2rem auto;
-            padding: 1rem;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        section h2 {
-            border-bottom: 2px solid #333;
-            padding-bottom: 0.5rem;
-            margin-bottom: 1rem;
-        }
-        .project {
-            margin-bottom: 1rem;
-        }
-        .project h3 {
-            margin: 0.5rem 0;
-        }
-        .project p {
-            margin: 0.5rem 0;
-        }
-        footer {
-            background-color: #3c3c3c;
-            color: #f4f4f4;
-            text-align: center;
-            padding: 1rem 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Gaurav Dewasi</h1>
-        <p>Editor</p>
+        <div class="header-content">
+            <img src="profile-pic.png" alt="Gaurav Dewasi" class="profile-photo">
+            <div class="header-text">
+                <h1>Gaurav Dewasi</h1>
+                <p>Editor</p>
+            </div>
+        </div>
     </header>
     <nav>
         <a href="#about">About Me</a>
         <a href="#portfolio">Portfolio</a>
         <a href="#contact">Contact</a>
     </nav>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Welcome to my portfolio. I am Gaurav Dewasi, a passionate video editor with a keen eye for detail and a love for storytelling through visual media. With years of experience in editing videos for various purposes, I strive to bring creativity and precision to every project I work on.</p>
-    </section>
-    <section id="portfolio">
-        <h2>Portfolio</h2>
-        <div class="project">
-            <h3>Project 1</h3>
-            <p>Description of Project 1. This project showcases my skills in video editing, including transitions, color correction, and sound design.</p>
-            <video width="420" height="340" controls>
-                <source src="project3.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-        </div>
-        <div class="project">
-            <h3>Project 2</h3>
-            <p>Description of Project 2. This project highlights my ability to create engaging content that resonates with the audience.</p>
-            <video width="420" height="340" controls>
-                <source src="project2.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-        </div>
-    </section>
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>If you would like to get in touch, please email me at <a href="mailto:gaurav@example.com">gaurav@example.com</a>.</p>
-    </section>
-    <footer>
-        <p>&copy; 2024 Gaurav Dewasi. All rights reserved.</p>
-    </footer>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Welcome to my portfolio. I am Gaurav Dewasi, a passionate video editor with a keen eye for detail and a love for storytelling through visual media. With years of experience in editing videos for various purposes, I strive to bring creativity and precision to every project I work on.</p>
+        </section>
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>Description of Project 1. This project showcases my skills in video editing, including transitions, color correction, and sound design.</p>
+                <video width="100%" controls>
+                    <source src="project1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <p>Description of Project 2. This project highlights my ability to create engaging content that resonates with the audience.</p>
+                <video width="100%" controls>
+                    <source src="project2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>If you would like to get in touch, please email me at <a href="mailto:gaurav@example.com">gaurav@example.com</a>.</p>
+        </section>
+    </main>
+    
+    <script src="scripts.js"></script>
 </body>
 </html>
+
